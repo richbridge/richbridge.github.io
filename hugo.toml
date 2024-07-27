@@ -15,6 +15,18 @@ themesdir              = "themes"
 [Author]
   name = "RichFan"
 
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.129.0'
+    max = ''
+  [[module.mounts]]
+    source = 'asyncapi'
+    target = 'static/asyncapi'
+  [[module.mounts]]
+    source = 'openapi'
+    target = 'static/openapi'
+
 [taxonomies]
   category = "categories"
   tag = "tags"
