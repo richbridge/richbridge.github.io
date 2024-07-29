@@ -12,9 +12,6 @@ title                  = "樊刹-学习心得分享"
 theme                  = "Shadocs"
 themesdir              = "themes"
 
-[Author]
-  name = "RichFan"
-
 [module]
   [module.hugoVersion]
     extended = true
@@ -50,21 +47,21 @@ themesdir              = "themes"
     weight       = 1
     languageName = "English"
 
-  [Languages.fr]
-    contentDir   = "content/french"
-    title        = "Documentation du thème Shadocs"
+  [Languages.zh]
+    contentDir   = "content/chinese"
+    title        = "樊刹-学习心得分享"
     weight       = 2
-    languageName = "Français"
+    languageName = "简体中文"
 
 #
 # Specific configuration
 #
 [params]
-  logo                    = "images/logo.png"
-  logoTouch               = "images/logoTouch.png"
+  logo                    = "favicon.svg"
+  logoTouch               = "favicon.svg"
   image404                = "images/404.gif"
-  favicon                 = "images/favicon.png"
-  faviconmd               = "![Favicon](/images/favicon.png)"
+  favicon                 = "favicon.svg"
+  faviconmd               = "![Favicon](favicon.svg)"
   homeLayout              = "onboarding"
   siteContentOrder        = "weight"
   # toc                   = true
