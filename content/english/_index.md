@@ -1,21 +1,21 @@
 ---
 weight: 0
-title: "樊刹-学习心得分享"
-description: "Shadocs theme homepage"
-categories: ["Theme"]
+title: "Fan Temple - Learn And Share"
+description: "Fan Temple homepage"
+categories: ["homepage"]
 ---
 
 {{< intro
-  introtitle="Theme onboarding"
+  introtitle="Fan Temple"
   id="introHome"
 >}}
 {
   "onexit": "manageDefaultCollapsibleSidebar();toggleExtendMenu(false);",
-  "oncomplete": "window.location.href = './theme';",
+  "oncomplete": "window.location.href = './';",
   "steps": [
     {
-      "title": "Shadocs theme",
-      "intro": "Welcome on the Shadocs theme documentation website.<br>Through this step by step onboarding guide, you will discover the several website features and therefore the theme ones.",
+      "title": "Fan Temple",
+      "intro": "Welcome on the Fan Temple website.<br>Through this step by step onboarding guide, you will discover the several website features.",
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(false);"
     },{
       "title": "The logo",

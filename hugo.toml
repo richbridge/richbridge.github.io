@@ -3,7 +3,7 @@
 #
 baseURL                = "https://example.com"
 copyright              = "The MIT License (MIT) Copyright © 2022 RichFan"
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh"
 enableEmoji            = false
 enableGitInfo          = false
 metaDataFormat         = "yaml"
@@ -41,17 +41,17 @@ themesdir              = "themes"
     unsafe = false
 
 [Languages]
-  [Languages.en]
-    contentDir   = "content/english"
-    title        = "Shadocs theme documentation"
-    weight       = 1
-    languageName = "English"
-
   [Languages.zh]
     contentDir   = "content/chinese"
-    title        = "樊刹-学习心得分享"
-    weight       = 2
+    title        = "樊刹 - 学习心得分享"
+    weight       = 1
     languageName = "简体中文"
+
+  [Languages.en]
+    contentDir   = "content/english"
+    title        = "Fan Temple - Learn And Share"
+    weight       = 2
+    languageName = "English"
 
 #
 # Specific configuration
